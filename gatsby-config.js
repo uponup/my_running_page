@@ -1,18 +1,18 @@
 module.exports = {
   pathPrefix: '/', // Change to `/running_page` when running on github pages
   siteMetadata: {
-    siteTitle: 'Running Page',
-    siteUrl: 'https://yihong.run',
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+    siteTitle: '龙格在跑',      // 网站标题
+    siteUrl: 'https://run.uponup.cn',  // 网站域名
+    logo: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJla4NJk3mZbDSoQ29fj7BNydEZ4nZweO1eyVgBwrbylFycCb89Yqz03ao3MLXOmTlTJm90vgKaJQ/132',
     description: 'Personal site and blog',
     navLinks: [
       {
         name: 'Blog',
-        url: 'https://yihong.run/running',
+        url: 'https://run.uponuo.cn',
       },
       {
         name: 'About',
-        url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+        url: 'https://github.com/uponup',
       },
     ],
   },
