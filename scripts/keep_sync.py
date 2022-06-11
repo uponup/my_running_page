@@ -6,6 +6,7 @@ import base64
 import json
 import os
 import time
+from urllib import response
 import zlib
 from collections import namedtuple
 from datetime import datetime, timedelta
@@ -35,6 +36,8 @@ def login(session, mobile, passowrd):
         token = r.json()["data"]["token"]
         headers["Authorization"] = f"Bearer {token}"
         return session, headers
+    else:
+        print(f"Login Fail: {r.text}")
 
 
 def get_to_download_runs_ids(session, headers):
