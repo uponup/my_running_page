@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://run.uponup.cn/sitemap/sitemap-index.xml
+Host: https://run.uponup.cn
